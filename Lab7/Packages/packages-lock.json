@@ -19,7 +19,7 @@
     },
     "com.unity.collections": {
       "version": "2.4.3",
-      "depth": 2,
+      "depth": 3,
       "source": "registry",
       "dependencies": {
         "com.unity.burst": "1.8.13",
@@ -38,7 +38,7 @@
     },
     "com.unity.ext.nunit": {
       "version": "2.0.3",
-      "depth": 4,
+      "depth": 5,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -90,15 +90,16 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ml-agents": {
-      "version": "file:C:/Users/Edu/ml-agents/com.unity.ml-agents",
-      "depth": 0,
-      "source": "local",
+      "version": "3.0.0",
+      "depth": 1,
+      "source": "registry",
       "dependencies": {
         "com.unity.sentis": "2.1.0",
-        "com.unity.modules.imageconversion": "1.0.0",
+        "com.unity.modules.physics": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0",
-        "com.unity.modules.physics": "1.0.0"
-      }
+        "com.unity.modules.imageconversion": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.ml-agents.extensions": {
       "version": "file:C:/Users/Edu/ml-agents/com.unity.ml-agents.extensions",
@@ -111,7 +112,7 @@
     },
     "com.unity.nuget.mono-cecil": {
       "version": "1.11.4",
-      "depth": 3,
+      "depth": 4,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -125,7 +126,7 @@
     },
     "com.unity.sentis": {
       "version": "2.1.0",
-      "depth": 1,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "com.unity.burst": "1.8.17",
@@ -143,7 +144,7 @@
     },
     "com.unity.test-framework": {
       "version": "1.4.3",
-      "depth": 3,
+      "depth": 4,
       "source": "registry",
       "dependencies": {
         "com.unity.ext.nunit": "2.0.3",
@@ -154,7 +155,7 @@
     },
     "com.unity.test-framework.performance": {
       "version": "3.0.3",
-      "depth": 3,
+      "depth": 4,
       "source": "registry",
       "dependencies": {
         "com.unity.test-framework": "1.1.31",
