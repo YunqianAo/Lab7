@@ -1,0 +1,29 @@
+{
+    "bolaml": {
+        "checkpoints": [
+            {
+                "steps": 347200,
+                "file_path": "results\\curso07\\bolaml\\bolaml-347200.onnx",
+                "reward": 722.5,
+                "creation_time": 1733862273.694607,
+                "auxillary_file_paths": [
+                    "results\\curso07\\bolaml\\bolaml-347200.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 347200,
+            "file_path": "results\\curso07\\bolaml.onnx",
+            "reward": 722.5,
+            "creation_time": 1733862273.694607,
+            "auxillary_file_paths": [
+                "results\\curso07\\bolaml\\bolaml-347200.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cu121"
+    }
+}
